@@ -51,7 +51,7 @@ const globalTheme = {
 
 const createApolloClient = headers => {
   const httpLink = new _apollo_client__WEBPACK_IMPORTED_MODULE_0__.HttpLink({
-    uri: `http://${"localhost:4000"}`,
+    uri: `http://${"64.227.35.101:4000"}`,
     credentials: "include",
     headers: headers || {}
   });
