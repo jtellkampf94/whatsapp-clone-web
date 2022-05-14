@@ -1,6 +1,0 @@
-query GetPresignedUrl {
-  getPresignedUrl {
-    presignedUrl
-    key
-  }
-}

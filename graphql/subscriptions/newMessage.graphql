@@ -1,5 +1,0 @@
-subscription NewMessage {
-  newMessage {
-    ...MessageFragment
-  }
-}

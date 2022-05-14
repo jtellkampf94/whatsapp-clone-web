@@ -1,8 +1,0 @@
-query GetMessages($chatId: Int!, $limit: Int!, $cursor: String) {
-  getMessages(chatId: $chatId, limit: $limit, cursor: $cursor) {
-    hasMore
-    messages {
-      ...MessageFragment
-    }
-  }
-}

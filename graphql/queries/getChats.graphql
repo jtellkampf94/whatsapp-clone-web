@@ -1,5 +1,0 @@
-query GetChats($limit: Int!, $cursor: String) {
-  getChats {
-    ...ChatFragment
-  }
-}

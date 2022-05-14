@@ -1,5 +1,0 @@
-mutation SendMessage($chatId: Int!, $text: String!, $imageUrl: String) {
-  sendMessage(chatId: $chatId, text: $text, imageUrl: $imageUrl) {
-    ...MessageFragment
-  }
-}
